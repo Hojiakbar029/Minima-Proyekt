@@ -1,0 +1,86 @@
+.hero{
+    background-color: $lightBlack;
+}
+.hero__inner{
+    display: flex;
+}
+.hero__info{
+    margin-bottom: 0px;
+    margin-left: 45px;
+}
+.hero__info h2{
+    margin-top: 135px;
+    color: white;
+    width: 540px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+    span{
+        background-color: #FCED65;
+        color: #000;
+    }
+}
+.hero__word{
+    margin-top: 54px;
+    color: white;
+}
+.hero__title{
+    color: white;
+    margin-top: 23px;
+    width: 440px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+}
+.hero__also{
+    display: flex;
+    align-items: center;
+}
+.hero__also img{
+    margin-top: 55px;
+    margin-left: 15px;
+}
+.hero__btn{
+    margin-top: 47px;
+    border-radius: 8px;
+    border: none;
+    background-color: white;
+    color: $lightBlack;
+    padding: 16px 45px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+.hero__img{
+    display: flex;
+    margin-left: 0;
+    margin-top: 23px;
+}
+.hero__img1{
+    padding: 23px 25px;
+    border-radius: 16px;
+    border: none;
+}
+.hero__img2{
+    margin-left: 15px;
+    padding: 26px 20px;
+    border-radius: 16px;
+    border: none;
+}
+.hero__img3{
+    margin-left: 15px;
+    padding: 23px 26px;
+    border-radius: 16px;
+    border: none;
+}
+
+
+
+.hero__banner{
+    margin-top: 90px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
