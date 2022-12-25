@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-  width: 1200px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
@@ -31,7 +31,7 @@ a {
   align-items: center;
   justify-content: space-between;
   padding: 19px 0;
-  margin-left: 50px;
+  margin-left: 20px;
 }
 
 .header__logo {
@@ -97,7 +97,6 @@ a {
 
 .hero__info {
   margin-bottom: 0px;
-  margin-left: 45px;
 }
 
 .hero__info h2 {
@@ -186,8 +185,14 @@ a {
 
 .project__inner {
   display: flex;
+<<<<<<< HEAD
   align-items: center;
   margin-left: 180px;
+=======
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+>>>>>>> ba82e8e1d58317e78146d842e078450da9dcc62e
 }
 
 .project__banner {
@@ -232,7 +237,6 @@ a {
 
 .service__info {
   margin-top: 150px;
-  margin-left: 45px;
 }
 
 .service__info h2 {
@@ -357,12 +361,12 @@ a {
 }
 
 .success__banner {
-  width: 500px;
-  margin-left: 50px;
+  width: 730px;
+  margin-left: -110px;
 }
 
 .success__info {
-  margin-left: 290px;
+  margin-left: 50px;
 }
 
 .success__info h2 {
