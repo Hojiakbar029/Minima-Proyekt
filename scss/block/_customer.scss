@@ -1,0 +1,53 @@
+.customer__inner {
+    h2{
+        // width: 559px;
+        height: 53px;
+        padding-left: 40px;
+        margin-top: 50px;
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 700;
+        text-align: center;
+        color: #121212;
+    }
+    .customer_wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .arrow_left{
+            padding-left: 28px;
+            padding-top: 200px;
+                // width: 56px;
+                // height: 56px;
+        }
+        .arrow_right{
+            padding-right: 28px;
+            padding-top: 200px;
+        }
+        .customer_box{
+            width: 816px;
+            img{
+                width: 88px;
+                height: 88px;
+                margin-left: 364px;
+                margin-top: 75px;
+            }
+            .customer__text{
+                width: 635px;
+                margin-left: 125px;
+                margin-top: 88px;
+            }
+            .customer_name{
+                width: 125px;
+                font-weight: 700;
+                margin-left: 345px;
+                padding-top: 28px;
+            }
+            .customer_prof{
+                width: 117px;
+                font-size: 13px;
+                margin-left: 349px;
+            }
+        }
+    }
+}
