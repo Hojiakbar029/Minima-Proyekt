@@ -1,11 +1,12 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 .container {
@@ -27,23 +28,35 @@ a {
 }
 
 .header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding: 19px 0;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 .header__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+
 .header__logo img {
   width: 56px;
   height: 56px;
   -o-object-fit: cover;
      object-fit: cover;
 }
+
 .header__logo h1 {
   margin-left: 15px;
   color: #121212;
@@ -53,10 +66,18 @@ a {
 }
 
 .header__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-grow: 1;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
   max-width: 750px;
 }
 
@@ -69,15 +90,23 @@ a {
 }
 
 .header__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   color: #121212;
 }
+
 .header__item a {
   color: #121212;
   letter-spacing: 1px;
 }
+
 .header__item button {
   border: none;
   background-color: #121212;
@@ -92,11 +121,14 @@ a {
 }
 
 .hero__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
 .hero__info {
   margin-bottom: 0px;
+  margin-left: 0 !important;
 }
 
 .hero__info h2 {
@@ -108,6 +140,7 @@ a {
   font-size: 48px;
   line-height: 64px;
 }
+
 .hero__info h2 span {
   background-color: #FCED65;
   color: #000;
@@ -129,12 +162,16 @@ a {
 }
 
 .hero__also {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .hero__also img {
-  margin-top: 55px;
+  margin-top: 42px;
   margin-left: 15px;
 }
 
@@ -152,9 +189,12 @@ a {
 }
 
 .hero__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-left: 0;
   margin-top: 23px;
+  margin-bottom: 30px;
 }
 
 .hero__img1 {
@@ -184,15 +224,12 @@ a {
 }
 
 .project__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-<<<<<<< HEAD
-  align-items: center;
-  margin-left: 180px;
-=======
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
->>>>>>> ba82e8e1d58317e78146d842e078450da9dcc62e
 }
 
 .project__banner {
@@ -218,6 +255,7 @@ a {
   font-size: 15px;
   line-height: 28px;
 }
+
 .project__title span {
   color: #121212;
   font-size: 20px;
@@ -232,6 +270,8 @@ a {
 }
 
 .service__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -253,8 +293,12 @@ a {
 }
 
 .service__market {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .service__market1 h5 {
@@ -277,8 +321,12 @@ a {
 }
 
 .service__design {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .service__design1 h5 {
@@ -301,8 +349,12 @@ a {
 }
 
 .service__production {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .service__production1 h5 {
@@ -325,8 +377,12 @@ a {
 }
 
 .service__customers {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .service__customers1 h5 {
@@ -355,8 +411,12 @@ a {
 }
 
 .success__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-top: 220px;
 }
 
@@ -405,20 +465,25 @@ a {
   margin-left: 400px;
   font-weight: 700;
 }
+
 .develop__inner ul {
   padding-top: 108px;
 }
+
 .develop__inner ul img {
   width: 296px;
   height: 296px;
 }
+
 .develop__inner ul .dev-item {
   padding-left: 96px;
   padding-top: 24px;
 }
+
 .develop__inner ul .dev-item p {
   height: 24px;
 }
+
 .develop__inner ul .dev-item .dev-text {
   height: 32px;
   width: 177px;
@@ -428,6 +493,7 @@ a {
   font-size: 20px;
   line-height: 32px;
 }
+
 .develop__inner ul .dev-item .dev--text {
   height: 18px;
   left: 1020px;
@@ -440,45 +506,59 @@ a {
   height: 53px;
   padding-left: 40px;
   margin-top: 50px;
-  font-family: "Plus Jakarta Sans";
+  font-family: 'Plus Jakarta Sans';
   font-style: normal;
   font-weight: 700;
   text-align: center;
   color: #121212;
 }
+
 .customer__inner .customer_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+
 .customer__inner .customer_wrapper .arrow_left {
   padding-left: 28px;
   padding-top: 200px;
 }
+
 .customer__inner .customer_wrapper .arrow_right {
   padding-right: 28px;
   padding-top: 200px;
 }
+
 .customer__inner .customer_wrapper .customer_box {
   width: 816px;
 }
+
 .customer__inner .customer_wrapper .customer_box img {
   width: 88px;
   height: 88px;
   margin-left: 364px;
   margin-top: 75px;
 }
+
 .customer__inner .customer_wrapper .customer_box .customer__text {
   width: 635px;
   margin-left: 125px;
   margin-top: 88px;
 }
+
 .customer__inner .customer_wrapper .customer_box .customer_name {
   width: 125px;
   font-weight: 700;
   margin-left: 345px;
   padding-top: 28px;
 }
+
 .customer__inner .customer_wrapper .customer_box .customer_prof {
   width: 117px;
   font-size: 13px;
@@ -486,8 +566,12 @@ a {
 }
 
 .regist__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .regist_info {
@@ -495,6 +579,7 @@ a {
   padding-top: 90px;
   padding-bottom: 120px;
 }
+
 .regist_info .regist__title {
   width: 283px;
   font-weight: 700;
@@ -502,14 +587,18 @@ a {
 }
 
 .regist__name {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding-top: 30px;
 }
 
 .first__name .reg-name {
   width: 81px;
-  font-family: "Plus Jakarta Sans";
+  font-family: 'Plus Jakarta Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -522,12 +611,13 @@ a {
   background: #F7F8F9;
   border-radius: 8px;
 }
+
 .regist_box p {
   width: 154px;
   height: 24px;
   padding: 16px 13px;
   color: #BDBDBD;
-  font-family: "Plus Jakarta Sans";
+  font-family: 'Plus Jakarta Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
@@ -541,12 +631,13 @@ a {
   background: #F7F8F9;
   border-radius: 8px;
 }
+
 .regist_box-email p {
   width: 154px;
   height: 24px;
   padding: 16px 13px;
   color: #BDBDBD;
-  font-family: "Plus Jakarta Sans";
+  font-family: 'Plus Jakarta Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
@@ -559,12 +650,13 @@ a {
   background: #F7F8F9;
   border-radius: 8px;
 }
+
 .regist_box-message p {
   width: 154px;
   height: 24px;
   padding: 16px 13px;
   color: #BDBDBD;
-  font-family: "Plus Jakarta Sans";
+  font-family: 'Plus Jakarta Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
@@ -588,6 +680,7 @@ a {
   padding-top: 150px;
   padding-bottom: 120px;
 }
+
 .regist_banner .address {
   width: 233px;
   height: 64px;
@@ -601,8 +694,11 @@ a {
 }
 
 .footer_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
+
 .footer_list .footer__item {
   padding-top: 86px;
   height: 175px;
@@ -615,12 +711,13 @@ a {
   height: 23px;
   padding-left: 43px;
   padding-top: 5px;
-  font-family: "Plus Jakarta Sans";
+  font-family: 'Plus Jakarta Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
   line-height: 22px;
 }
+
 .footer-tel a {
   color: #FFFFFF;
 }
@@ -630,15 +727,17 @@ a {
   height: 25px;
   padding-left: 80px;
   padding-top: 7px;
-  font-family: "Plus Jakarta Sans";
+  font-family: 'Plus Jakarta Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
   line-height: 22px;
 }
+
 .footer_icon a {
   color: #FFFFFF;
 }
+
 .footer_icon img {
   width: 160px;
   height: 37px;
@@ -651,12 +750,13 @@ a {
   height: 29px;
   padding-left: 240px;
   padding-top: 7px;
-  font-family: "Plus Jakarta Sans";
+  font-family: 'Plus Jakarta Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   color: #FFFFFF;
 }
+
 .footer_info img {
   width: 496px;
   height: 72px;
@@ -673,6 +773,7 @@ a {
   border-radius: 8px;
   margin-top: 15px;
 }
+
 .footer_btn a {
   width: 70px;
   height: 24px;
@@ -680,4 +781,5 @@ a {
   font-size: 14px;
   color: #000;
   padding: 12px 90px;
-}/*# sourceMappingURL=main.css.map */
+}
+/*# sourceMappingURL=main.css.map */
