@@ -1,0 +1,41 @@
+.develop__inner {
+    h2{
+        width: 465px;
+        padding-top: 106px;
+        margin-left: 400px;
+        font-weight: 700;
+    }
+    ul{
+        padding-top: 108px;
+        img{
+            width: 296px;
+            height: 296px;
+        }
+       .dev-item {
+            padding-left: 96px;
+            padding-top: 24px;
+            p{
+                
+                height: 24px;
+                
+            }
+            .dev-text{
+                height: 32px;
+                width: 177px;
+                left: 242px;
+                font-family: normal;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 32px;
+            }
+            .dev--text{
+                height: 18px;
+                // width: 97px;
+                left: 1020px;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 150%;
+            }
+       }
+    }
+}
